@@ -6,5 +6,5 @@ Starting with announcement of this study: <https://credibilitycoalition.org/resu
 
 I wrote some code to convert the data into a format I think might be better.
 
-More details on what I did in [NOTES.md].
+More details on what I did in [NOTES.md]().
 
