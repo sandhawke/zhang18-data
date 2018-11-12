@@ -1,0 +1,24 @@
+{
+  "name": "zhang18-data",
+  "version": "0.0.1",
+  "description": "RDF view of study data from CredCo WebConf '18 study by Zhang et al",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sandhawke/zhang18-data.git"
+  },
+  "keywords": [
+    "credweb",
+    "credibility",
+    "credco"
+  ],
+  "author": "Sandro Hawke (http://hawke.org/sandro)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sandhawke/zhang18-data/issues"
+  },
+  "homepage": "https://github.com/sandhawke/zhang18-data#readme"
+}
