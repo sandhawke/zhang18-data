@@ -1,0 +1,750 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix xs: <http://www.w3.org/2001/XMLSchema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix cred: <http://www.w3.org/ns/credweb#>.
+@prefix : <>.
+
+<https://www.independent.co.uk/news/world/asia/india-floods-bangladesh-nepal-deaths-millions-homeless-latest-news-updates-a7919006.html> dct:title "Floods in India, Bangladesh and Nepal kill 1,200 and leave millions homeless";
+    dct:abstract "At least 1,200 people have been killed and millions have been left homeless following devastating floods that have hit India, Bangladesh and Nepal, in one of the worst flooding disasters to have affected the region in years. International aid agencies said thousands of villages have been cut off by flooding with people being deprived of food and clean water for days.  South Asia suffers from frequent flooding during the monsoon season, which lasts from June to September, but authorities have said this year's floods have been much worse. ";
+    dct:date "2017-08-29T17:32:14.000Z"^^xsd:dateTimeStamp.
+:rate_your_impression_of_the_cr rdf:definitionText "Rate your impression of the credibility of this article.".
+:the_response__Somewhat_high_cr rdf:definitionText "The response \"Somewhat high credibility\", when the possible responses are \"Very high credibility\", \"Somewhat high credibility\", \"Medium credibility\", \"Somewhat low credibility\", and \"Very low credibility\".";
+    rdfs:label "Somewhat high credibility";
+    rdf:value "0.75"^^xsd:double.
+:n0 cred:observer :Check-2018-05.
+:has_the_text_of_this_article_a rdf:definitionText "Has the text of this article appeared in exactly the same words or very similar words in another publication?".
+<https://www.ntd.tv/inspiring/life/9-sleeping-positions-improve-health.html> dct:title "";
+    dct:abstract "".
+:the_response__Somewhat_low_cre rdf:definitionText "The response \"Somewhat low credibility\", when the possible responses are \"Very high credibility\", \"Somewhat high credibility\", \"Medium credibility\", \"Somewhat low credibility\", and \"Very low credibility\".";
+    rdfs:label "Somewhat low credibility";
+    rdf:value "0.25"^^xsd:double.
+:n1 cred:observer :Check-2018-05.
+<https://qz.com/1064364/hurricane-harvey-houstons-flooding-made-worse-by-unchecked-urban-development-and-wetland-destruction> dct:title "Houston’s flooding shows what happens when you ignore science and let developers run rampant";
+    dct:abstract "The city's gung-ho approach to development has destroyed the area's natural ability to drain away hurricane floodwaters.".
+:the_response__Very_high_credib rdf:definitionText "The response \"Very high credibility\", when the possible responses are \"Very high credibility\", \"Somewhat high credibility\", \"Medium credibility\", \"Somewhat low credibility\", and \"Very low credibility\".";
+    rdfs:label "Very high credibility";
+    rdf:value "1"^^xsd:integer.
+:n2 cred:observer :Check-2018-05.
+<https://www.independent.co.uk/life-style/health-and-families/donald-trump-mental-illness-narcisissm-us-president-psychologists-inauguration-crowd-size-paranoia-a7552661.html> dct:title "Psychologists believe Trump is showing signs of severe mental illness";
+    dct:abstract "Hillary Clinton claimed Trump was “temperamentally unfit” to be President, and in recent months many people the world over have reached the same conclusion. Clinton was, of course, Trump’s political opponent, but some psychologists have now started questioning his state of mind.";
+    dct:date "2017-01-30T10:29:08.000Z"^^xsd:dateTimeStamp.
+:the_response__Medium_credibili rdf:definitionText "The response \"Medium credibility\", when the possible responses are \"Very high credibility\", \"Somewhat high credibility\", \"Medium credibility\", \"Somewhat low credibility\", and \"Very low credibility\".";
+    rdfs:label "Medium credibility";
+    rdf:value "0.5"^^xsd:double.
+:n3 cred:observer :Check-2018-05.
+<https://info.cmsri.org/the-driven-researcher-blog/vaccinated-vs.-unvaccinated-guess-who-is-sicker> dct:title "Vaccinated vs. Unvaccinated: Mawson Homeschooled Study Reveals Who is Sicker";
+    dct:abstract "The Mawson study is a groundbreaking study of vaccinated vs. unvaccinated American children that shows more chronic illness among vaccinated children.".
+:n4 cred:observer :Check-2018-05.
+<https://medicalxpress.com/news/2017-08-reverse-aging-brain.html> dct:title "Dancing can reverse the signs of aging in the brain";
+    dct:abstract "As we grow older we suffer a decline in mental and physical fitness, which can be made worse by conditions like Alzheimer's disease. A new study, published in the open-access journal Frontiers in Human ...".
+:n5 cred:observer :Check-2018-05.
+<http://www.nationspressph.com/2017/02/pls-share-do-not-eat-this-fish-it-is.html> dct:title "Nations Press: PLS SHARE: DO NOT EAT THIS FISH, IT IS VERY DANGEROUS FOR YOUR HEALTH!";
+    dct:abstract "".
+:the_response__Very_low_credibi rdf:definitionText "The response \"Very low credibility\", when the possible responses are \"Very high credibility\", \"Somewhat high credibility\", \"Medium credibility\", \"Somewhat low credibility\", and \"Very low credibility\".";
+    rdfs:label "Very low credibility";
+    rdf:value "0"^^xsd:integer.
+:n6 cred:observer :Check-2018-05.
+<https://dailyhealthpost.com/preventing-alzheimers/> dct:title "Preventing Alzheimer's Disease, Dementia & Cognitive Decline With Diet";
+    dct:abstract "Preventing Alzheimer's naturally is as simple as changing your diet and a few lifestyle habits to reset your brain, free PDF included.";
+    dct:date "2017-10-03T06:15:19.000Z"^^xsd:dateTimeStamp.
+:n7 cred:observer :Check-2018-05.
+<https://ewao.com/2017/09/16/six-pharmaceutical-medicines-that-instantly-make-your-health-worse/> dct:title "Six Pharmaceutical Drugs That Immediately Destroy Your Health";
+    dct:abstract "Some pharmaceutical medicines can cause you immediate physiological damage, keep reading to find out which ones! A new CDC report confirmed that half of all Americans take some pharmaceutical drug for their sicknesses. Over 150 million citizens in the U.S. are consuming medications that are tests or even unproven products. This is alarming since taking so much medication can cause many health-threatening problems in the human body. The number of Americans who take medication increased 10% since the early 1990s. It used to be illegal for pharmaceutical companies to push legal drugs onto people, but now with the rise in drug advertisements the number of people using them has snowballed. If you feel caught up in the pharmaceutical drug web, then you should ask yourself if taking a pill to mask symptoms based on bad lifestyle choices is the right way to go. Also, consuming pharmaceutical drugs will not cure your illness. Instead, many of them will likely cause more long-term harm, than";
+    dct:date "2017-09-16T04:05:51.000Z"^^xsd:dateTimeStamp.
+:n8 cred:observer :Check-2018-05.
+<https://mic.com/articles/176092/under-the-gop-s-health-plan-sexual-assault-would-be-considered-a-preexisting-condition> dct:title "Under the GOP's health plan, sexual assault could be considered a pre-existing condition";
+    dct:abstract "The bill would also mean insurers could consider having postpartum depression or surviving domestic abuse pre-existing conditions.".
+:n9 cred:observer :Check-2018-05.
+<https://dailyoccupation.com/2017/06/12/world-renowned-heart-surgeon-speaks-really-causes-heart-disease/> dct:title "World Renowned Heart Surgeon Speaks Out On What Really Causes Heart Disease";
+    dct:abstract "We physicians with all our training, knowledge and authority often acquire a rather large ego that tends to make it difficult to admit we are wrong. So, here it is. I…";
+    dct:date "2017-06-12T02:17:49.000Z"^^xsd:dateTimeStamp.
+:n10 cred:observer :Check-2018-05.
+<https://www.usatoday.com/story/news/nation-now/2017/06/16/coconut-oil-isnt-healthy-its-never-been-healthy/402719001/> dct:title "Coconut oil isn't healthy. It's never been healthy.";
+    dct:abstract "“We advise against the use of coconut oil,\" the American Heart Association says in a new report.".
+:n11 cred:observer :Check-2018-05.
+<http://inshapetoday.com/now-official-fda-announced-vaccines-causing-autism/> dct:title "NOW IT’S OFFICIAL: FDA Announced That Vaccines Are Causing Autism! - InShapeToday";
+    dct:abstract "The FDA has published conclusive proof on their website that the DTap vaccine can cause autism. According to the FDA’s online Biologics Blood Vaccines document, a vaccine manufacturer admits on its package insert that their vaccination can cause autism as one of many adverse reactions. These adverse events reported during post-approval use of Tripedia vaccine...";
+    dct:date "2017-11-15T00:52:37.000Z"^^xsd:dateTimeStamp.
+:n12 cred:observer :Check-2018-05.
+<http://nowcheckthis.com/2017/03/23/confirmed-e-cigarettes-cause-a-horrible-incurable-disease-called-popcorn-lung-worse-than-lung-cancer/> dct:title "CONFIRMED: E-CIGARETTES CAUSE A HORRIBLE INCURABLE DISEASE CALLED ‘POPCORN LUNG’. WORSE THAN LUNG CANCER!";
+    dct:abstract "CONFIRMED: E-CIGARETTES CAUSE A HORRIBLE INCURABLE DISEASE CALLED ‘POPCORN LUNG’. WORSE THAN LUNG CANCER!".
+:n13 cred:observer :Check-2018-05.
+<https://en.newsner.com/mom-s-warning-is-spreading-like-wildfire-scented-candles-are-harmful-your-baby-s-health/about/family> dct:title "Mom's warning is spreading like wildfire – scented candles are harmful to your baby’s health";
+    dct:abstract "Mom's warning is spreading like wildfire – scented candles are harmful to your baby’s health. Newsner give you the news that truly matters to you!";
+    dct:date "2017-01-20T11:10:00.000Z"^^xsd:dateTimeStamp.
+:n14 cred:observer :Check-2018-05.
+<https://www.littlethings.com/hand-food-and-mouth-disease/> dct:title "Hand-Foot-And-Mouth Disease On The Rise: Experts Beg Parents To Know The Signs";
+    dct:abstract "Every parents worries about the infectious childhood illness that sweep through classrooms and after-school programs this time of year. Most kids get their inoculations early on to avoid old-fashioned diseases like mumps and rubella that used to effect huge swathes of children every year. Even better, there’s now an annual flu shot for tackling one...".
+:n15 cred:observer :Check-2018-05.
+<https://ewao.com/2017/08/16/johns-hopkins-researcher-releases-shocking-report-on-flu-vaccines/> dct:title "Johns Hopkins Researcher Releases Shocking Report On Flu Vaccines";
+    dct:abstract "In 2015, a whole new slew of flu vaccines found themselves getting approved by the Federal Drug Administration. This isn't an uncommon practice; most flu vaccines pass inspection every year. It's well known advice that has been passed down from doctor to patient that the flu vaccine is something that we all should get, but it has been quickly surfacing that what's in the vaccines--especially those from 2015 and after--might actually be more damaging then simply rolling the dice on getting the flu. The ingredient that is getting the most flack is called an adjuvant. The particular one involved is called Squalene, and it has been linked to auto-immune disease side effects. In fact, it may have been used during chemical attacks in the Gulf War. Symptoms include chronic fatigue, muscle aches, and neurologic damage. While it may be a contested subject, it remains that we aren't really sure what's going into these vaccines we're being convinced should be used. A scientist who has been";
+    dct:date "2017-08-16T06:59:21.000Z"^^xsd:dateTimeStamp.
+:n16 cred:observer :Check-2018-05.
+<https://mysticalraven.com/health/5110/how-your-finger-shape-determines-your-personality-and-your-health-risks> dct:title "How Your Finger Shape Determines Your Personality (And Your Health Risks) - Mystical Raven";
+    dct:abstract "Just look at the picture and then look at your fingers, are you type A, B or C? Find out what it says about your personality (and your health).".
+:n17 cred:observer :Check-2018-05.
+<https://foodbabe.com/2016/11/15/monsanto/> dct:title "Monsanto Is Scrambling To Bury This Breaking Story - Don't Let This Go Unshared!";
+    dct:abstract "I am frankly shocked this information is not making front page news right now. Monsanto will do anything to bury this story… and as of right now, it’s working. Not a single mainstream media outlet has covered this appalling new report that shows millions of people being poisoned by a chemical that does not belong in our  … Read More";
+    dct:date "2016-11-15T18:01:21.000Z"^^xsd:dateTimeStamp.
+:n18 cred:observer :Check-2018-05.
+<https://www.naturalnews.com/2017-10-02-lone-gunman-theory-of-las-vegas-shooter-is-complete-nonsense-stephen-paddock.html> dct:title "MISSION IMPOSSIBLE: Official story of Las Vegas shooting unravels; physical impossibility of lone gunman senior citizen makes narrative ludicrous";
+    dct:abstract "It's all hogwash. The \"official\" narrative of how things went down in the Las Vegas massacre is so full of holes that it begs the question of just how deep the truth about this [...]";
+    dct:date "2017-10-02T19:37:56.000Z"^^xsd:dateTimeStamp.
+:n19 cred:observer :Check-2018-05.
+<https://www.bbc.com/earth/story/20170504-there-are-diseases-hidden-in-ice-and-they-are-waking-up> dct:title "There are diseases hidden in ice, and they are waking up";
+    dct:abstract "Long-dormant bacteria and viruses, trapped in ice and permafrost for centuries, are reviving as Earth's climate warms".
+:n20 cred:observer :Check-2018-05.
+<http://www.wfaa.com/news/health/resorts-in-mexico-suspected-of-drugging-tourists/458170922> dct:title "Resorts in Mexico suspected of drugging tourists";
+    dct:abstract "The scene at the swim-up bar at the Mexican resort where Abbey Conner was pulled listless from the pool in January was full of young tourists last month when an attorney hired by Conner's family showed up.".
+:n21 cred:observer :Check-2018-05.
+<http://www.alternativenewsnetwork.net/lead-developer-hpv-vaccines-comes-clean-warns-parents-young-girls-giant-deadly-scam/> dct:title "Lead Developer of HPV Vaccines Comes Clean, Warns Parents & Young Girls It’s All A Giant Deadly Scam";
+    dct:abstract "Lead Developer of HPV Vaccines Comes Clean, Warns Parents & Young Girls It’s All A Giant Deadly Scam";
+    dct:date "2017-05-21T16:12:59.000Z"^^xsd:dateTimeStamp.
+:n22 cred:observer :Check-2018-05.
+<https://www.androidmagazines.info/health-experts-are-warning-people-to-stop-eating-tilapia/> dct:title "Health Experts Are Warning People To Stop Eating Tilapia";
+    dct:abstract "Eating seafood is a great way to get vital nutrients and vitamins. Tilapia is the most popular farmed fish in America because of its affordability. But health experts are warning consumers to stay as far away as possible from Tilapia. Flip over to the next page to see why… CONTINUE READING HERE Tilapia Contains Few Nutrients: Researchers from the Wake Forest University School of Medicine released a report on the omega-3 fatty acid content in popular fish. Tilapia scored far lower than most other fish on the list. Omega-3 fatty acids give fish most of their benefits, including Alzheimer's risk reduction. Tilapia contains a TON of omega-6 fatty acids, which are terrible for you. The quantity of omega-6 in tilapia is higher than a hamburger or bacon. Flip over to the next page to see another reason why Tilapia can kill you… CONTINUE READING HERE Tilapia Could Cause Alzheimer's: One of the omega-6 fatty acids in tilapia goes by the name of arachidonic acid – a compound which".
+:n23 cred:observer :Check-2018-05.
+<https://shareably.net/health-benefits-farting/> dct:title "Stop holding your farts in. Here are 7 unexpected health benefits of passing gas";
+    dct:abstract "We're often self-conscious when we fart. However, farting is actually healthy for you. Here's why!".
+:n24 cred:observer :Check-2018-05.
+<https://electrek.co/2016/11/10/tesla-made-more-money-last-quarter-than-the-entire-us-oil-industry-made-last-year> dct:title "Tesla made more money last quarter than the entire US oil industry made last year";
+    dct:abstract "While there are nuances to the claim made in this headline, it is technically true since Tesla announced that it turned a profit of $22 million last quarter while the US oil industry managed to los…";
+    dct:date "2016-11-10T10:28:42.000Z"^^xsd:dateTimeStamp.
+:n25 cred:observer :Check-2018-05.
+<https://www.cnn.com/2017/07/10/health/coffee-leads-to-longer-life-studies-reaffirm/index.html> dct:title "Drinking more coffee leads to a longer life, two studies say";
+    dct:abstract "A higher consumption of coffee is linked to a longer life, two new studies say, with the benefits applicable across multiple races.".
+:n26 cred:observer :Check-2018-05.
+<https://www.simplemost.com/new-study-says-putting-kids-to-bed-earlier-is-better-for-moms-sanity/> dct:title "Putting Kids To Bed Early Improves Mom's Health - Simplemost";
+    dct:abstract "A new study confirms why all those bedtime battles are indeed worth it. When kids go to bed early, they are healthier and mom is happier.";
+    dct:date "2017-05-02T15:35:08.000Z"^^xsd:dateTimeStamp.
+:n27 cred:observer :Check-2018-05.
+<https://www.theatlantic.com/health/archive/2017/08/if-everyone-ate-beans-instead-of-beef/535536/> dct:title "If Everyone Ate Beans Instead of Beef";
+    dct:abstract "With one dietary change, the U.S. could hypothetically get 74 percent of the way to meeting 2020 greenhouse-gas emission goals.".
+:n28 cred:observer :Check-2018-05.
+<http://publichealthabc.com/2-cups-day-1-week-stomach-will-flatter/> dct:title "WITH ONLY 2 CUPS A DAY FOR 1 WEEK YOUR STOMACH WILL BE FLATTER! - Public Health ABC";
+    dct:abstract "The desire of lots of people is to have a flat stomach. Sadly, you cannot just exercise your method to it. A lot involves exactly what you put into your mouth. Do you have excess fat in your abdomen location and want to get rid of it when and for all? Fortunately, today we will...";
+    dct:date "2017-02-27T09:53:31.000Z"^^xsd:dateTimeStamp.
+:n29 cred:observer :Check-2018-05.
+<https://awarenessact.com/stop-calling-your-drug-addiction-a-disease/> dct:title "Stop Calling Your Drug Addiction a Disease";
+    dct:abstract "Despite the prevalence of drug addiction in our society and the growing epidemic it has become, drug addiction is no more a disease now than it was, to begin with. Yes, there I said it,";
+    dct:date "2017-07-28T21:20:53.000Z"^^xsd:dateTimeStamp.
+:n30 cred:observer :Check-2018-05.
+<https://www.naturalnews.com/2017-10-02-five-things-that-just-dont-add-up-about-the-las-vegas-mass-shooting.html> dct:title "Five things that just don’t add up about the Las Vegas mass shooting";
+    dct:abstract "Our hearts and prayers go out to all those killed or injured in the Las Vegas shooting, and in a nation where so many anti-Americans are kneeling in pampered protest, this mass shooting saw [...]";
+    dct:date "2017-10-02T09:59:08.000Z"^^xsd:dateTimeStamp.
+:n31 cred:observer :Check-2018-05.
+<https://www.npr.org/sections/health-shots/2017/07/16/537075018/dirt-is-good-why-kids-need-exposure-to-germs> dct:title "Dirt Is Good': Why Kids Need Exposure To Germs";
+    dct:abstract "Should I use antibacterial soaps? How often should I bathe my child? Those are just some of the questions Jack Gilbert, a microbiome scientist, answers in his new book.".
+:n32 cred:observer :Check-2018-05.
+<http://www.wate.com/news/national-world/measles-making-comeback-as-parents-opt-out-of-vaccines/792747092> dct:title "Measles making comeback in Texas as parents opt out of vaccines";
+    dct:abstract "A Texas medical researcher is raising concerns about a potential large-scale comeback of the measles.";
+    dct:date "2017-01-07T18:38:56.000Z"^^xsd:dateTimeStamp.
+:n33 cred:observer :Check-2018-06.
+<https://www.nytimes.com/2017/03/22/climate/arctic-winter-sea-ice-record-low-global-warming.html> dct:title "Arctic’s Winter Sea Ice Drops to Its Lowest Recorded Level";
+    dct:abstract "Much of the ice also appears to be thinner than normal — further signs of climate change’s effects on the region.".
+:n34 cred:observer :Check-2018-06.
+<http://www.iflscience.com/environment/heavy-monsoon-causing-extreme-flooding-in-south-asia-has-killed-1200-people-so-far/> dct:title "";
+    dct:abstract "".
+:n35 cred:observer :Check-2018-06.
+<https://www.nytimes.com/interactive/2017/06/09/climate/antarctica-rift-update.html> dct:title "An Iceberg the Size of Delaware Just Broke Away From Antarctica";
+    dct:abstract "A crack more than 120 miles long had developed over several years in a floating ice shelf called Larsen C, and scientists who have been monitoring it confirmed on Wednesday that the huge iceberg had finally separated.".
+:n36 cred:observer :Check-2018-06.
+<https://www.nytimes.com/2017/03/23/well/move/the-best-exercise-for-aging-muscles.html> dct:title "The Best Exercise for Aging Muscles";
+    dct:abstract "Certain kinds of exercise may mitigate the effects of aging at the cellular level.".
+:n37 cred:observer :Check-2018-05.
+<https://www.theguardian.com/environment/2017/may/19/arctic-stronghold-of-worlds-seeds-flooded-after-permafrost-melts> dct:title "Arctic stronghold of world’s seeds flooded after permafrost melts";
+    dct:abstract "No seeds were lost but the ability of the rock vault to provide failsafe protection against all disasters is now threatened by climate change";
+    dct:date "2017-05-19T15:39:36.000Z"^^xsd:dateTimeStamp.
+:n38 cred:observer :Check-2018-05.
+<https://www.healthspiritbody.com/lyme-disease-treatment/> dct:title "Stevia Kills Lyme Disease Pathogen Better Than Antibiotics, Study Confirms";
+    dct:abstract "A recent study published in the European Journal of Microbiology and Immunology revealed that stevia, a sweetener and sugar substitute, has been found to terminate late state or chronic Lyme disease.";
+    dct:date "2017-06-11T05:59:33.000Z"^^xsd:dateTimeStamp.
+:n39 cred:observer :Check-2018-06.
+<https://www.today.com/health/birth-order-first-borns-get-intellectual-advantage-t108042> dct:title "The oldest child is actually the smartest, study finds";
+    dct:abstract "Birth order doesn't affect personality, but it does set certain siblings up for more success, new research has found.".
+:n40 cred:observer :Check-2018-05.
+<http://www.breitbart.com/big-government/2017/06/13/delingpole-ship-of-fools-iii-global-warming-study-cancelled-because-of-unprecedented-ice/> dct:title "DELINGPOLE: Global Warming Study Cancelled Because of 'Unprecedented' Ice";
+    dct:abstract "A global warming research study in Canada has been cancelled because of \"unprecedented\" thick summer ice. They blamed it on 'climate change.'";
+    dct:date "2017-06-13T17:24:06.000Z"^^xsd:dateTimeStamp.
+:n41 cred:observer :Check-2018-05.
+<http://goodfullness.net/which-banana-would-you-eat-your-answer-may-have-an-effect-on-your-health/> dct:title "Which Banana Would You Eat? Your Answer May Have An Effect On Your Health";
+    dct:abstract "When we eat bananas, we do so because we are hoping to gain a number of different health benefits. While some of us eat them because we truly enjoy the taste, others are merely trying";
+    dct:date "2017-11-03T18:23:58.000Z"^^xsd:dateTimeStamp.
+:n42 cred:observer :Check-2018-06.
+<https://www.ntd.tv/inspiring/parenting/sam-berns-boy-aging-disease-progeria-dies-17.html> dct:title "";
+    dct:abstract "".
+:n43 cred:observer :Check-2018-05.
+<http://www.iflscience.com/health-and-medicine/coconut-oil-bad/> dct:title "";
+    dct:abstract "".
+:n44 cred:observer :Check-2018-05.
+<https://www.nytimes.com/2017/02/08/opinion/how-the-anti-vaxxers-are-winning.html> dct:title "Opinion | How the Anti-Vaxxers Are Winning";
+    dct:abstract "A major measles outbreak in America is only a matter of time.".
+:n45 cred:observer :Check-2018-06.
+<https://www.huffingtonpost.com/entry/vivek-murthy-report-on-drugs-and-alcohol_us_582dce19e4b099512f812e9c> dct:title "Surgeon Gen.: Addiction Is A Chronic Brain Disease, Not Moral Failure";
+    dct:abstract "The way forward includes needle exchanges and calling addiction what it is: a medical condition.";
+    dct:date "2016-11-17T19:48:15.000Z"^^xsd:dateTimeStamp.
+:n46 cred:observer :Check-2018-05.
+<https://www.collective-evolution.com/2017/01/25/study-finds-stevia-kills-lyme-disease-pathogen-better-than-antibiotics/> dct:title "Study Finds Stevia Kills Lyme Disease Pathogen Better Than Antibiotics";
+    dct:abstract "Lyme disease is a very complicated disease to treat, both for the allopathic medical world and alternative medical practitioners, due to its rapid shape-shifting abilities. It also hides, and is exceedingly difficult to destroy. CDC studies reveal that “the number of people diagnosed with Lyme disease each year in the United States is around 300,000. […]".
+:n47 cred:observer :Check-2018-06.
+<http://www.dailymail.co.uk/~/article-4429790/index.html> dct:title "Diet drinks TRIPLE your risk of stroke and dementia";
+    dct:abstract "The Boston University study of almost 4,400 adults suggests diet drinks are more likely to cause strokes and dementia than those full of sugar.";
+    dct:date "2017-04-20T20:00:00.000Z"^^xsd:dateTimeStamp.
+:n48 cred:observer :Check-2018-06.
+<https://worldtruth.tv/the-amish-who-dont-get-vaccinated-rarely-get-autism-cancer-or-heart-disease-coincidence/> dct:title "The Amish, Who Don’t Get Vaccinated, Rarely Get Autism, Cancer, or Heart Disease – Coincidence?";
+    dct:abstract "Do not talk about whether vaccines work or not, or whether or not they cause autism, unless you’re ready for a very heated debate. Although the link between vaccines and autism is nothing new, to even speak of it can get you labeled as an “anti-vaxxer” or a health fanatic of sorts by the sheeple (brainwashed masses) that believe every vaccine the CDC recommends not only works, but is 100% safe and 100% effective 100% of the time. Even if some vaccines work some of the time, are they worth the health risk? That is the ultimate question, because one";
+    dct:date "2017-01-09T08:31:46.000Z"^^xsd:dateTimeStamp.
+:n49 cred:observer :Check-2018-06.
+:n50 cred:observer :Check-2018-03.
+:n51 cred:observer :Check-2018-03.
+:n52 cred:observer :Check-2018-03.
+:n53 cred:observer :Check-2018-03.
+:n54 cred:observer :Check-2018-03.
+:n55 cred:observer :Check-2018-03.
+:n56 cred:observer :Check-2018-03.
+:n57 cred:observer :Check-2018-03.
+:n58 cred:observer :Check-2018-03.
+:n59 cred:observer :Check-2018-03.
+:n60 cred:observer :Check-2018-03.
+:n61 cred:observer :Check-2018-03.
+:n62 cred:observer :Check-2018-03.
+:n63 cred:observer :Check-2018-03.
+:n64 cred:observer :Check-2018-03.
+:n65 cred:observer :Check-2018-03.
+:n66 cred:observer :Check-2018-03.
+:n67 cred:observer :Check-2018-03.
+:n68 cred:observer :Check-2018-03.
+:n69 cred:observer :Check-2018-03.
+:n70 cred:observer :Check-2018-03.
+:n71 cred:observer :Check-2018-03.
+:n72 cred:observer :Check-2018-03.
+:n73 cred:observer :Check-2018-03.
+:n74 cred:observer :Check-2018-03.
+:n75 cred:observer :Check-2018-03.
+:n76 cred:observer :Check-2018-03.
+:n77 cred:observer :Check-2018-04.
+:n78 cred:observer :Check-2018-04.
+:n79 cred:observer :Check-2018-03.
+:n80 cred:observer :Check-2018-03.
+:n81 cred:observer :Check-2018-04.
+:n82 cred:observer :Check-2018-04.
+:n83 cred:observer :Check-2018-04.
+:n84 cred:observer :Check-2018-04.
+:n85 cred:observer :Check-2018-03.
+:n86 cred:observer :Check-2018-04.
+:n87 cred:observer :Check-2018-04.
+:n88 cred:observer :Check-2018-04.
+:n89 cred:observer :Check-2018-04.
+:n90 cred:observer :Check-2018-04.
+:n91 cred:observer :Check-2018-04.
+:n92 cred:observer :Check-2018-04.
+:n93 cred:observer :Check-2018-04.
+:n94 cred:observer :Check-2018-04.
+:n95 cred:observer :Check-2018-04.
+:n96 cred:observer :Check-2018-04.
+:has_the_central_claim_in_this_ rdf:definitionText "Has the central claim in this article been fact-checked by another source?".
+:n97 cred:observer :Check-2018-04.
+:n98 cred:observer :Check-2018-04.
+:n99 cred:observer :Check-2018-04.
+:n100 cred:observer :Check-2018-01.
+:n101 cred:observer :Check-2018-01.
+:n102 cred:observer :Check-2018-01.
+:n103 cred:observer :Check-2018-01.
+:n104 cred:observer :Check-2018-01.
+:is_Source_1___ rdf:definitionText "Is Source 1...".
+:n105 cred:observer :Check-2018-01.
+:n106 cred:observer :Check-2018-01.
+:n107 cred:observer :Check-2018-01.
+:n108 cred:observer :Check-2018-01.
+:n109 cred:observer :Check-2018-01.
+:n110 cred:observer :Check-2018-01.
+:n111 cred:observer :Check-2018-01.
+:n112 cred:observer :Check-2018-01.
+:n113 cred:observer :Check-2018-01.
+:n114 cred:observer :Check-2018-01.
+:n115 cred:observer :Check-2018-01.
+:n116 cred:observer :Check-2018-01.
+:n117 cred:observer :Check-2018-01.
+:n118 cred:observer :Check-2018-01.
+:n119 cred:observer :Check-2018-01.
+:n120 cred:observer :Check-2018-01.
+:n121 cred:observer :Check-2018-01.
+:n122 cred:observer :Check-2018-01.
+:n123 cred:observer :Check-2018-01.
+:n124 cred:observer :Check-2018-01.
+:n125 cred:observer :Check-2018-01.
+:n126 cred:observer :Check-2018-01.
+:n127 cred:observer :Check-2018-01.
+:n128 cred:observer :Check-2018-01.
+:n129 cred:observer :Check-2018-02.
+:n130 cred:observer :Check-2018-02.
+:n131 cred:observer :Check-2018-02.
+:n132 cred:observer :Check-2018-02.
+:n133 cred:observer :Check-2018-02.
+:n134 cred:observer :Check-2018-02.
+:n135 cred:observer :Check-2018-02.
+:n136 cred:observer :Check-2018-02.
+:n137 cred:observer :Check-2018-02.
+:n138 cred:observer :Check-2018-02.
+:n139 cred:observer :Check-2018-02.
+:n140 cred:observer :Check-2018-02.
+:n141 cred:observer :Check-2018-02.
+:n142 cred:observer :Check-2018-02.
+:n143 cred:observer :Check-2018-02.
+:n144 cred:observer :Check-2018-02.
+:n145 cred:observer :Check-2018-02.
+:n146 cred:observer :Check-2018-02.
+:n147 cred:observer :Check-2018-02.
+:n148 cred:observer :Check-2018-02.
+:n0 {
+<https://www.independent.co.uk/news/world/asia/india-floods-bangladesh-nepal-deaths-millions-homeless-latest-news-updates-a7919006.html> :rate_your_impression_of_the_cr :the_response__Somewhat_high_cr
+}
+:n1 {
+<https://www.ntd.tv/inspiring/life/9-sleeping-positions-improve-health.html> :rate_your_impression_of_the_cr :the_response__Somewhat_low_cre
+}
+:n2 {
+<https://qz.com/1064364/hurricane-harvey-houstons-flooding-made-worse-by-unchecked-urban-development-and-wetland-destruction> :rate_your_impression_of_the_cr :the_response__Very_high_credib
+}
+:n3 {
+<https://www.independent.co.uk/life-style/health-and-families/donald-trump-mental-illness-narcisissm-us-president-psychologists-inauguration-crowd-size-paranoia-a7552661.html> :rate_your_impression_of_the_cr :the_response__Medium_credibili
+}
+:n4 {
+<https://info.cmsri.org/the-driven-researcher-blog/vaccinated-vs.-unvaccinated-guess-who-is-sicker> :rate_your_impression_of_the_cr :the_response__Somewhat_low_cre
+}
+:n5 {
+<https://medicalxpress.com/news/2017-08-reverse-aging-brain.html> :rate_your_impression_of_the_cr :the_response__Medium_credibili
+}
+:n6 {
+<http://www.nationspressph.com/2017/02/pls-share-do-not-eat-this-fish-it-is.html> :rate_your_impression_of_the_cr :the_response__Very_low_credibi
+}
+:n7 {
+<https://dailyhealthpost.com/preventing-alzheimers/> :rate_your_impression_of_the_cr :the_response__Somewhat_low_cre
+}
+:n8 {
+<https://ewao.com/2017/09/16/six-pharmaceutical-medicines-that-instantly-make-your-health-worse/> :rate_your_impression_of_the_cr :the_response__Very_low_credibi
+}
+:n9 {
+<https://mic.com/articles/176092/under-the-gop-s-health-plan-sexual-assault-would-be-considered-a-preexisting-condition> :rate_your_impression_of_the_cr :the_response__Medium_credibili
+}
+:n10 {
+<https://dailyoccupation.com/2017/06/12/world-renowned-heart-surgeon-speaks-really-causes-heart-disease/> :rate_your_impression_of_the_cr :the_response__Somewhat_low_cre
+}
+:n11 {
+<https://www.usatoday.com/story/news/nation-now/2017/06/16/coconut-oil-isnt-healthy-its-never-been-healthy/402719001/> :rate_your_impression_of_the_cr :the_response__Somewhat_high_cr
+}
+:n12 {
+<http://inshapetoday.com/now-official-fda-announced-vaccines-causing-autism/> :rate_your_impression_of_the_cr :the_response__Very_low_credibi
+}
+:n13 {
+<http://nowcheckthis.com/2017/03/23/confirmed-e-cigarettes-cause-a-horrible-incurable-disease-called-popcorn-lung-worse-than-lung-cancer/> :rate_your_impression_of_the_cr :the_response__Somewhat_low_cre
+}
+:n14 {
+<https://en.newsner.com/mom-s-warning-is-spreading-like-wildfire-scented-candles-are-harmful-your-baby-s-health/about/family> :rate_your_impression_of_the_cr :the_response__Somewhat_low_cre
+}
+:n15 {
+<https://www.littlethings.com/hand-food-and-mouth-disease/> :rate_your_impression_of_the_cr :the_response__Medium_credibili
+}
+:n16 {
+<https://ewao.com/2017/08/16/johns-hopkins-researcher-releases-shocking-report-on-flu-vaccines/> :rate_your_impression_of_the_cr :the_response__Very_low_credibi
+}
+:n17 {
+<https://mysticalraven.com/health/5110/how-your-finger-shape-determines-your-personality-and-your-health-risks> :rate_your_impression_of_the_cr :the_response__Very_low_credibi
+}
+:n18 {
+<https://foodbabe.com/2016/11/15/monsanto/> :rate_your_impression_of_the_cr :the_response__Medium_credibili
+}
+:n19 {
+<https://www.naturalnews.com/2017-10-02-lone-gunman-theory-of-las-vegas-shooter-is-complete-nonsense-stephen-paddock.html> :rate_your_impression_of_the_cr :the_response__Somewhat_low_cre
+}
+:n20 {
+<https://www.bbc.com/earth/story/20170504-there-are-diseases-hidden-in-ice-and-they-are-waking-up> :rate_your_impression_of_the_cr :the_response__Very_high_credib
+}
+:n21 {
+<http://www.wfaa.com/news/health/resorts-in-mexico-suspected-of-drugging-tourists/458170922> :rate_your_impression_of_the_cr :the_response__Somewhat_high_cr
+}
+:n22 {
+<http://www.alternativenewsnetwork.net/lead-developer-hpv-vaccines-comes-clean-warns-parents-young-girls-giant-deadly-scam/> :rate_your_impression_of_the_cr :the_response__Very_low_credibi
+}
+:n23 {
+<https://www.androidmagazines.info/health-experts-are-warning-people-to-stop-eating-tilapia/> :rate_your_impression_of_the_cr :the_response__Very_low_credibi
+}
+:n24 {
+<https://shareably.net/health-benefits-farting/> :rate_your_impression_of_the_cr :the_response__Somewhat_low_cre
+}
+:n25 {
+<https://electrek.co/2016/11/10/tesla-made-more-money-last-quarter-than-the-entire-us-oil-industry-made-last-year> :rate_your_impression_of_the_cr :the_response__Very_high_credib
+}
+:n26 {
+<https://www.cnn.com/2017/07/10/health/coffee-leads-to-longer-life-studies-reaffirm/index.html> :rate_your_impression_of_the_cr :the_response__Very_high_credib
+}
+:n27 {
+<https://www.simplemost.com/new-study-says-putting-kids-to-bed-earlier-is-better-for-moms-sanity/> :rate_your_impression_of_the_cr :the_response__Medium_credibili
+}
+:n28 {
+<https://www.theatlantic.com/health/archive/2017/08/if-everyone-ate-beans-instead-of-beef/535536/> :rate_your_impression_of_the_cr :the_response__Very_high_credib
+}
+:n29 {
+<http://publichealthabc.com/2-cups-day-1-week-stomach-will-flatter/> :rate_your_impression_of_the_cr :the_response__Very_low_credibi
+}
+:n30 {
+<https://awarenessact.com/stop-calling-your-drug-addiction-a-disease/> :rate_your_impression_of_the_cr :the_response__Somewhat_low_cre
+}
+:n31 {
+<https://www.naturalnews.com/2017-10-02-five-things-that-just-dont-add-up-about-the-las-vegas-mass-shooting.html> :rate_your_impression_of_the_cr :the_response__Somewhat_low_cre
+}
+:n32 {
+<https://www.npr.org/sections/health-shots/2017/07/16/537075018/dirt-is-good-why-kids-need-exposure-to-germs> :rate_your_impression_of_the_cr :the_response__Medium_credibili
+}
+:n33 {
+<http://www.wate.com/news/national-world/measles-making-comeback-as-parents-opt-out-of-vaccines/792747092> :rate_your_impression_of_the_cr :the_response__Medium_credibili
+}
+:n34 {
+<https://www.nytimes.com/2017/03/22/climate/arctic-winter-sea-ice-record-low-global-warming.html> :rate_your_impression_of_the_cr :the_response__Very_high_credib
+}
+:n35 {
+<http://www.iflscience.com/environment/heavy-monsoon-causing-extreme-flooding-in-south-asia-has-killed-1200-people-so-far/> :rate_your_impression_of_the_cr :the_response__Very_low_credibi
+}
+:n36 {
+<https://www.nytimes.com/interactive/2017/06/09/climate/antarctica-rift-update.html> :rate_your_impression_of_the_cr :the_response__Very_high_credib
+}
+:n37 {
+<https://www.nytimes.com/2017/03/23/well/move/the-best-exercise-for-aging-muscles.html> :rate_your_impression_of_the_cr :the_response__Somewhat_high_cr
+}
+:n38 {
+<https://www.theguardian.com/environment/2017/may/19/arctic-stronghold-of-worlds-seeds-flooded-after-permafrost-melts> :rate_your_impression_of_the_cr :the_response__Very_high_credib
+}
+:n39 {
+<https://www.healthspiritbody.com/lyme-disease-treatment/> :rate_your_impression_of_the_cr :the_response__Somewhat_low_cre
+}
+:n40 {
+<https://www.today.com/health/birth-order-first-borns-get-intellectual-advantage-t108042> :rate_your_impression_of_the_cr :the_response__Somewhat_high_cr
+}
+:n41 {
+<http://www.breitbart.com/big-government/2017/06/13/delingpole-ship-of-fools-iii-global-warming-study-cancelled-because-of-unprecedented-ice/> :rate_your_impression_of_the_cr :the_response__Very_low_credibi
+}
+:n42 {
+<http://goodfullness.net/which-banana-would-you-eat-your-answer-may-have-an-effect-on-your-health/> :rate_your_impression_of_the_cr :the_response__Somewhat_low_cre
+}
+:n43 {
+<https://www.ntd.tv/inspiring/parenting/sam-berns-boy-aging-disease-progeria-dies-17.html> :rate_your_impression_of_the_cr :the_response__Medium_credibili
+}
+:n44 {
+<http://www.iflscience.com/health-and-medicine/coconut-oil-bad/> :rate_your_impression_of_the_cr :the_response__Somewhat_low_cre
+}
+:n45 {
+<https://www.nytimes.com/2017/02/08/opinion/how-the-anti-vaxxers-are-winning.html> :rate_your_impression_of_the_cr :the_response__Very_high_credib
+}
+:n46 {
+<https://www.huffingtonpost.com/entry/vivek-murthy-report-on-drugs-and-alcohol_us_582dce19e4b099512f812e9c> :rate_your_impression_of_the_cr :the_response__Very_high_credib
+}
+:n47 {
+<https://www.collective-evolution.com/2017/01/25/study-finds-stevia-kills-lyme-disease-pathogen-better-than-antibiotics/> :rate_your_impression_of_the_cr :the_response__Somewhat_low_cre
+}
+:n48 {
+<http://www.dailymail.co.uk/~/article-4429790/index.html> :rate_your_impression_of_the_cr :the_response__Somewhat_low_cre
+}
+:n49 {
+<https://worldtruth.tv/the-amish-who-dont-get-vaccinated-rarely-get-autism-cancer-or-heart-disease-coincidence/> :rate_your_impression_of_the_cr :the_response__Very_low_credibi
+}
+:n50 {
+<https://www.independent.co.uk/news/world/asia/india-floods-bangladesh-nepal-deaths-millions-homeless-latest-news-updates-a7919006.html> :rate_your_impression_of_the_cr :the_response__Very_high_credib
+}
+:n51 {
+<https://ewao.com/2017/08/16/johns-hopkins-researcher-releases-shocking-report-on-flu-vaccines/> :rate_your_impression_of_the_cr :the_response__Somewhat_low_cre
+}
+:n52 {
+<https://www.usatoday.com/story/news/nation-now/2017/06/16/coconut-oil-isnt-healthy-its-never-been-healthy/402719001/> :rate_your_impression_of_the_cr :the_response__Medium_credibili
+}
+:n53 {
+<https://mysticalraven.com/health/5110/how-your-finger-shape-determines-your-personality-and-your-health-risks> :rate_your_impression_of_the_cr :the_response__Very_low_credibi
+}
+:n54 {
+<http://inshapetoday.com/now-official-fda-announced-vaccines-causing-autism/> :rate_your_impression_of_the_cr :the_response__Very_low_credibi
+}
+:n55 {
+<https://foodbabe.com/2016/11/15/monsanto/> :rate_your_impression_of_the_cr :the_response__Very_low_credibi
+}
+:n56 {
+<http://nowcheckthis.com/2017/03/23/confirmed-e-cigarettes-cause-a-horrible-incurable-disease-called-popcorn-lung-worse-than-lung-cancer/> :rate_your_impression_of_the_cr :the_response__Medium_credibili
+}
+:n57 {
+<https://www.bbc.com/earth/story/20170504-there-are-diseases-hidden-in-ice-and-they-are-waking-up> :rate_your_impression_of_the_cr :the_response__Very_high_credib
+}
+:n58 {
+<https://en.newsner.com/mom-s-warning-is-spreading-like-wildfire-scented-candles-are-harmful-your-baby-s-health/about/family> :rate_your_impression_of_the_cr :the_response__Somewhat_low_cre
+}
+:n59 {
+<http://www.wfaa.com/news/health/resorts-in-mexico-suspected-of-drugging-tourists/458170922> :rate_your_impression_of_the_cr :the_response__Somewhat_high_cr
+}
+:n60 {
+<https://www.littlethings.com/hand-food-and-mouth-disease/> :rate_your_impression_of_the_cr :the_response__Medium_credibili
+}
+:n61 {
+<http://www.alternativenewsnetwork.net/lead-developer-hpv-vaccines-comes-clean-warns-parents-young-girls-giant-deadly-scam/> :rate_your_impression_of_the_cr :the_response__Very_low_credibi
+}
+:n62 {
+<https://www.naturalnews.com/2017-10-02-lone-gunman-theory-of-las-vegas-shooter-is-complete-nonsense-stephen-paddock.html> :rate_your_impression_of_the_cr :the_response__Very_low_credibi
+}
+:n63 {
+<https://www.androidmagazines.info/health-experts-are-warning-people-to-stop-eating-tilapia/> :rate_your_impression_of_the_cr :the_response__Somewhat_low_cre
+}
+:n64 {
+<https://shareably.net/health-benefits-farting/> :rate_your_impression_of_the_cr :the_response__Somewhat_low_cre
+}
+:n65 {
+<https://electrek.co/2016/11/10/tesla-made-more-money-last-quarter-than-the-entire-us-oil-industry-made-last-year> :rate_your_impression_of_the_cr :the_response__Medium_credibili
+}
+:n66 {
+<https://www.simplemost.com/new-study-says-putting-kids-to-bed-earlier-is-better-for-moms-sanity/> :rate_your_impression_of_the_cr :the_response__Medium_credibili
+}
+:n67 {
+<https://www.theatlantic.com/health/archive/2017/08/if-everyone-ate-beans-instead-of-beef/535536/> :rate_your_impression_of_the_cr :the_response__Very_high_credib
+}
+:n68 {
+<https://www.cnn.com/2017/07/10/health/coffee-leads-to-longer-life-studies-reaffirm/index.html> :rate_your_impression_of_the_cr :the_response__Very_high_credib
+}
+:n69 {
+<https://qz.com/1064364/hurricane-harvey-houstons-flooding-made-worse-by-unchecked-urban-development-and-wetland-destruction> :rate_your_impression_of_the_cr :the_response__Very_high_credib
+}
+:n70 {
+<https://dailyoccupation.com/2017/06/12/world-renowned-heart-surgeon-speaks-really-causes-heart-disease/> :rate_your_impression_of_the_cr :the_response__Medium_credibili
+}
+:n71 {
+<https://www.independent.co.uk/life-style/health-and-families/donald-trump-mental-illness-narcisissm-us-president-psychologists-inauguration-crowd-size-paranoia-a7552661.html> :rate_your_impression_of_the_cr :the_response__Very_high_credib
+}
+:n72 {
+<https://info.cmsri.org/the-driven-researcher-blog/vaccinated-vs.-unvaccinated-guess-who-is-sicker> :rate_your_impression_of_the_cr :the_response__Somewhat_high_cr
+}
+:n73 {
+<https://medicalxpress.com/news/2017-08-reverse-aging-brain.html> :rate_your_impression_of_the_cr :the_response__Somewhat_high_cr
+}
+:n74 {
+<http://www.nationspressph.com/2017/02/pls-share-do-not-eat-this-fish-it-is.html> :rate_your_impression_of_the_cr :the_response__Somewhat_low_cre
+}
+:n75 {
+<https://dailyhealthpost.com/preventing-alzheimers/> :rate_your_impression_of_the_cr :the_response__Medium_credibili
+}
+:n76 {
+<https://mic.com/articles/176092/under-the-gop-s-health-plan-sexual-assault-would-be-considered-a-preexisting-condition> :rate_your_impression_of_the_cr :the_response__Very_high_credib
+}
+:n77 {
+<https://www.nytimes.com/2017/03/23/well/move/the-best-exercise-for-aging-muscles.html> :rate_your_impression_of_the_cr :the_response__Somewhat_high_cr
+}
+:n78 {
+<https://www.theguardian.com/environment/2017/may/19/arctic-stronghold-of-worlds-seeds-flooded-after-permafrost-melts> :rate_your_impression_of_the_cr :the_response__Somewhat_high_cr
+}
+:n79 {
+<http://publichealthabc.com/2-cups-day-1-week-stomach-will-flatter/> :rate_your_impression_of_the_cr :the_response__Very_low_credibi
+}
+:n80 {
+<https://www.ntd.tv/inspiring/life/9-sleeping-positions-improve-health.html> :rate_your_impression_of_the_cr :the_response__Somewhat_low_cre
+}
+:n81 {
+<https://www.today.com/health/birth-order-first-borns-get-intellectual-advantage-t108042> :rate_your_impression_of_the_cr :the_response__Medium_credibili
+}
+:n82 {
+<http://www.breitbart.com/big-government/2017/06/13/delingpole-ship-of-fools-iii-global-warming-study-cancelled-because-of-unprecedented-ice/> :rate_your_impression_of_the_cr :the_response__Medium_credibili
+}
+:n83 {
+<https://www.ntd.tv/inspiring/parenting/sam-berns-boy-aging-disease-progeria-dies-17.html> :rate_your_impression_of_the_cr :the_response__Somewhat_low_cre
+}
+:n84 {
+<http://www.iflscience.com/health-and-medicine/coconut-oil-bad/> :rate_your_impression_of_the_cr :the_response__Somewhat_low_cre
+}
+:n85 {
+<https://ewao.com/2017/09/16/six-pharmaceutical-medicines-that-instantly-make-your-health-worse/> :rate_your_impression_of_the_cr :the_response__Very_low_credibi
+}
+:n86 {
+<https://www.huffingtonpost.com/entry/vivek-murthy-report-on-drugs-and-alcohol_us_582dce19e4b099512f812e9c> :rate_your_impression_of_the_cr :the_response__Somewhat_high_cr
+}
+:n87 {
+<https://awarenessact.com/stop-calling-your-drug-addiction-a-disease/> :rate_your_impression_of_the_cr :the_response__Medium_credibili
+}
+:n88 {
+<https://www.naturalnews.com/2017-10-02-five-things-that-just-dont-add-up-about-the-las-vegas-mass-shooting.html> :rate_your_impression_of_the_cr :the_response__Somewhat_low_cre
+}
+:n89 {
+<https://www.npr.org/sections/health-shots/2017/07/16/537075018/dirt-is-good-why-kids-need-exposure-to-germs> :rate_your_impression_of_the_cr :the_response__Somewhat_high_cr
+}
+:n90 {
+<https://www.collective-evolution.com/2017/01/25/study-finds-stevia-kills-lyme-disease-pathogen-better-than-antibiotics/> :rate_your_impression_of_the_cr :the_response__Somewhat_low_cre
+}
+:n91 {
+<https://www.nytimes.com/2017/02/08/opinion/how-the-anti-vaxxers-are-winning.html> :rate_your_impression_of_the_cr :the_response__Somewhat_high_cr
+}
+:n92 {
+<http://www.dailymail.co.uk/~/article-4429790/index.html> :rate_your_impression_of_the_cr :the_response__Somewhat_low_cre
+}
+:n93 {
+<http://goodfullness.net/which-banana-would-you-eat-your-answer-may-have-an-effect-on-your-health/> :rate_your_impression_of_the_cr :the_response__Very_low_credibi
+}
+:n94 {
+<https://www.healthspiritbody.com/lyme-disease-treatment/> :rate_your_impression_of_the_cr :the_response__Somewhat_low_cre
+}
+:n95 {
+<https://www.nytimes.com/interactive/2017/06/09/climate/antarctica-rift-update.html> :rate_your_impression_of_the_cr :the_response__Somewhat_high_cr
+}
+:n96 {
+<http://www.iflscience.com/environment/heavy-monsoon-causing-extreme-flooding-in-south-asia-has-killed-1200-people-so-far/> :rate_your_impression_of_the_cr :the_response__Somewhat_low_cre
+}
+:n97 {
+<https://www.nytimes.com/2017/03/22/climate/arctic-winter-sea-ice-record-low-global-warming.html> :rate_your_impression_of_the_cr :the_response__Somewhat_high_cr
+}
+:n98 {
+<http://www.wate.com/news/national-world/measles-making-comeback-as-parents-opt-out-of-vaccines/792747092> :rate_your_impression_of_the_cr :the_response__Medium_credibili
+}
+:n99 {
+<https://worldtruth.tv/the-amish-who-dont-get-vaccinated-rarely-get-autism-cancer-or-heart-disease-coincidence/> :rate_your_impression_of_the_cr :the_response__Somewhat_low_cre
+}
+:n100 {
+<https://ewao.com/2017/08/16/johns-hopkins-researcher-releases-shocking-report-on-flu-vaccines/> :rate_your_impression_of_the_cr :the_response__Somewhat_low_cre
+}
+:n101 {
+<https://www.independent.co.uk/news/world/asia/india-floods-bangladesh-nepal-deaths-millions-homeless-latest-news-updates-a7919006.html> :rate_your_impression_of_the_cr :the_response__Very_high_credib
+}
+:n102 {
+<https://www.usatoday.com/story/news/nation-now/2017/06/16/coconut-oil-isnt-healthy-its-never-been-healthy/402719001/> :rate_your_impression_of_the_cr :the_response__Very_high_credib
+}
+:n103 {
+<https://mysticalraven.com/health/5110/how-your-finger-shape-determines-your-personality-and-your-health-risks> :rate_your_impression_of_the_cr :the_response__Very_low_credibi
+}
+:n104 {
+<https://www.cnn.com/2017/07/10/health/coffee-leads-to-longer-life-studies-reaffirm/index.html> :rate_your_impression_of_the_cr :the_response__Very_high_credib
+}
+:n105 {
+<https://foodbabe.com/2016/11/15/monsanto/> :rate_your_impression_of_the_cr :the_response__Very_low_credibi
+}
+:n106 {
+<http://nowcheckthis.com/2017/03/23/confirmed-e-cigarettes-cause-a-horrible-incurable-disease-called-popcorn-lung-worse-than-lung-cancer/> :rate_your_impression_of_the_cr :the_response__Somewhat_low_cre
+}
+:n107 {
+<http://www.wfaa.com/news/health/resorts-in-mexico-suspected-of-drugging-tourists/458170922> :rate_your_impression_of_the_cr :the_response__Very_high_credib
+}
+:n108 {
+<https://www.bbc.com/earth/story/20170504-there-are-diseases-hidden-in-ice-and-they-are-waking-up> :rate_your_impression_of_the_cr :the_response__Somewhat_high_cr
+}
+:n109 {
+<http://inshapetoday.com/now-official-fda-announced-vaccines-causing-autism/> :rate_your_impression_of_the_cr :the_response__Somewhat_low_cre
+}
+:n110 {
+<https://en.newsner.com/mom-s-warning-is-spreading-like-wildfire-scented-candles-are-harmful-your-baby-s-health/about/family> :rate_your_impression_of_the_cr :the_response__Very_high_credib
+}
+:n111 {
+<https://www.littlethings.com/hand-food-and-mouth-disease/> :rate_your_impression_of_the_cr :the_response__Somewhat_low_cre
+}
+:n112 {
+<http://www.alternativenewsnetwork.net/lead-developer-hpv-vaccines-comes-clean-warns-parents-young-girls-giant-deadly-scam/> :rate_your_impression_of_the_cr :the_response__Somewhat_low_cre
+}
+:n113 {
+<https://www.naturalnews.com/2017-10-02-lone-gunman-theory-of-las-vegas-shooter-is-complete-nonsense-stephen-paddock.html> :rate_your_impression_of_the_cr :the_response__Somewhat_high_cr
+}
+:n114 {
+<https://www.androidmagazines.info/health-experts-are-warning-people-to-stop-eating-tilapia/> :rate_your_impression_of_the_cr :the_response__Somewhat_low_cre
+}
+:n115 {
+<https://shareably.net/health-benefits-farting/> :rate_your_impression_of_the_cr :the_response__Somewhat_low_cre
+}
+:n116 {
+<https://electrek.co/2016/11/10/tesla-made-more-money-last-quarter-than-the-entire-us-oil-industry-made-last-year> :rate_your_impression_of_the_cr :the_response__Medium_credibili
+}
+:n117 {
+<https://www.simplemost.com/new-study-says-putting-kids-to-bed-earlier-is-better-for-moms-sanity/> :rate_your_impression_of_the_cr :the_response__Medium_credibili
+}
+:n118 {
+<https://www.theatlantic.com/health/archive/2017/08/if-everyone-ate-beans-instead-of-beef/535536/> :rate_your_impression_of_the_cr :the_response__Somewhat_high_cr
+}
+:n119 {
+<http://publichealthabc.com/2-cups-day-1-week-stomach-will-flatter/> :rate_your_impression_of_the_cr :the_response__Very_low_credibi
+}
+:n120 {
+<https://medicalxpress.com/news/2017-08-reverse-aging-brain.html> :rate_your_impression_of_the_cr :the_response__Very_high_credib
+}
+:n121 {
+<https://ewao.com/2017/09/16/six-pharmaceutical-medicines-that-instantly-make-your-health-worse/> :rate_your_impression_of_the_cr :the_response__Very_low_credibi
+}
+:n122 {
+<https://dailyoccupation.com/2017/06/12/world-renowned-heart-surgeon-speaks-really-causes-heart-disease/> :rate_your_impression_of_the_cr :the_response__Somewhat_high_cr
+}
+:n123 {
+<https://info.cmsri.org/the-driven-researcher-blog/vaccinated-vs.-unvaccinated-guess-who-is-sicker> :rate_your_impression_of_the_cr :the_response__Medium_credibili
+}
+:n124 {
+<https://qz.com/1064364/hurricane-harvey-houstons-flooding-made-worse-by-unchecked-urban-development-and-wetland-destruction> :rate_your_impression_of_the_cr :the_response__Somewhat_low_cre
+}
+:n125 {
+<https://www.independent.co.uk/life-style/health-and-families/donald-trump-mental-illness-narcisissm-us-president-psychologists-inauguration-crowd-size-paranoia-a7552661.html> :rate_your_impression_of_the_cr :the_response__Somewhat_high_cr
+}
+:n126 {
+<http://www.nationspressph.com/2017/02/pls-share-do-not-eat-this-fish-it-is.html> :rate_your_impression_of_the_cr :the_response__Very_low_credibi
+}
+:n127 {
+<https://dailyhealthpost.com/preventing-alzheimers/> :rate_your_impression_of_the_cr :the_response__Very_high_credib
+}
+:n128 {
+<https://mic.com/articles/176092/under-the-gop-s-health-plan-sexual-assault-would-be-considered-a-preexisting-condition> :rate_your_impression_of_the_cr :the_response__Somewhat_high_cr
+}
+:n129 {
+<https://www.nytimes.com/2017/03/23/well/move/the-best-exercise-for-aging-muscles.html> :rate_your_impression_of_the_cr :the_response__Very_high_credib
+}
+:n130 {
+<https://www.theguardian.com/environment/2017/may/19/arctic-stronghold-of-worlds-seeds-flooded-after-permafrost-melts> :rate_your_impression_of_the_cr :the_response__Very_high_credib
+}
+:n131 {
+<https://www.today.com/health/birth-order-first-borns-get-intellectual-advantage-t108042> :rate_your_impression_of_the_cr :the_response__Very_high_credib
+}
+:n132 {
+<http://www.breitbart.com/big-government/2017/06/13/delingpole-ship-of-fools-iii-global-warming-study-cancelled-because-of-unprecedented-ice/> :rate_your_impression_of_the_cr :the_response__Medium_credibili
+}
+:n133 {
+<https://www.ntd.tv/inspiring/parenting/sam-berns-boy-aging-disease-progeria-dies-17.html> :rate_your_impression_of_the_cr :the_response__Medium_credibili
+}
+:n134 {
+<http://www.iflscience.com/health-and-medicine/coconut-oil-bad/> :rate_your_impression_of_the_cr :the_response__Very_low_credibi
+}
+:n135 {
+<https://www.huffingtonpost.com/entry/vivek-murthy-report-on-drugs-and-alcohol_us_582dce19e4b099512f812e9c> :rate_your_impression_of_the_cr :the_response__Somewhat_high_cr
+}
+:n136 {
+<https://awarenessact.com/stop-calling-your-drug-addiction-a-disease/> :rate_your_impression_of_the_cr :the_response__Medium_credibili
+}
+:n137 {
+<https://www.naturalnews.com/2017-10-02-five-things-that-just-dont-add-up-about-the-las-vegas-mass-shooting.html> :rate_your_impression_of_the_cr :the_response__Somewhat_low_cre
+}
+:n138 {
+<https://www.npr.org/sections/health-shots/2017/07/16/537075018/dirt-is-good-why-kids-need-exposure-to-germs> :rate_your_impression_of_the_cr :the_response__Very_high_credib
+}
+:n139 {
+<https://www.collective-evolution.com/2017/01/25/study-finds-stevia-kills-lyme-disease-pathogen-better-than-antibiotics/> :rate_your_impression_of_the_cr :the_response__Medium_credibili
+}
+:n140 {
+<http://www.dailymail.co.uk/~/article-4429790/index.html> :rate_your_impression_of_the_cr :the_response__Medium_credibili
+}
+:n141 {
+<https://www.nytimes.com/2017/03/22/climate/arctic-winter-sea-ice-record-low-global-warming.html> :rate_your_impression_of_the_cr :the_response__Very_high_credib
+}
+:n142 {
+<http://www.iflscience.com/environment/heavy-monsoon-causing-extreme-flooding-in-south-asia-has-killed-1200-people-so-far/> :rate_your_impression_of_the_cr :the_response__Very_low_credibi
+}
+:n143 {
+<https://www.nytimes.com/interactive/2017/06/09/climate/antarctica-rift-update.html> :rate_your_impression_of_the_cr :the_response__Very_high_credib
+}
+:n144 {
+<https://www.healthspiritbody.com/lyme-disease-treatment/> :rate_your_impression_of_the_cr :the_response__Very_low_credibi
+}
+:n145 {
+<http://goodfullness.net/which-banana-would-you-eat-your-answer-may-have-an-effect-on-your-health/> :rate_your_impression_of_the_cr :the_response__Somewhat_low_cre
+}
+:n146 {
+<https://www.nytimes.com/2017/02/08/opinion/how-the-anti-vaxxers-are-winning.html> :rate_your_impression_of_the_cr :the_response__Very_high_credib
+}
+:n147 {
+<https://worldtruth.tv/the-amish-who-dont-get-vaccinated-rarely-get-autism-cancer-or-heart-disease-coincidence/> :rate_your_impression_of_the_cr :the_response__Very_low_credibi
+}
+:n148 {
+<http://www.wate.com/news/national-world/measles-making-comeback-as-parents-opt-out-of-vaccines/792747092> :rate_your_impression_of_the_cr :the_response__Medium_credibili
+}

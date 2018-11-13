@@ -20,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/sandhawke/zhang18-data/issues"
   },
-  "homepage": "https://github.com/sandhawke/zhang18-data#readme"
+  "homepage": "https://github.com/sandhawke/zhang18-data#readme",
+  "dependencies": {
+    "csv-parse": "^3.2.0",
+    "moment": "^2.22.2",
+    "setdefault": "^1.0.1"
+  }
 }
