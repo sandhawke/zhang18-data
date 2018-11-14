@@ -111,7 +111,7 @@ function describe(r, kb) {
   // and this is the date of the REPORT, whatever that means
   // kb.add(subject, kb.ns.dct.date, moment.parseZone(r.report_date).format())
 
-  let date = new Date('2018-04-23')
+  // let date = new Date('2018-04-23')
   let startTime
   for (let t = 1; t <= 25; t++) {
     const uid = r[`task_user_${t}`]
@@ -138,9 +138,11 @@ function describe(r, kb) {
         
         kb.add(subject, property, value, observation)
         kb.add(observation, kb.ns.cred.observer, observer)
+        // valid time
         kb.add(observation, kb.ns.cred.startTime, startTime)
         kb.add(observation, kb.ns.cred.endTime, endTime)
-        kb.add(observation, kb.ns.dct.date, date)
+        // transaction time (begins, in original db; when recorded)
+        kb.add(observation, kb.ns.dct.date, endTime)
       }
       startTime = endTime // start of the next one is the end of this one
     }
