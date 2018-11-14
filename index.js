@@ -26,7 +26,7 @@ module.exports.kb = records2rdf(records)
 function records2rdf (records) {
   const kb = kgx.createKB()
   kb.base = 'https://base-placeholder.example/'
-  my = kb.ns('', kb.base)
+  my = kb.ns('', kb.base + '#')
   for (const r of records) {
     describe(r, kb)
   }
