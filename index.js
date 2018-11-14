@@ -1,35 +1,38 @@
-const parse = require('csv-parse/lib/sync')
 const fs = require('fs').promises
-const moment = require('moment')
 const kgx = require('kgx')
-const setdefault = require('setdefault')
-
-const part1files = [
-  'downloaded/credco_webconf_study_1_study_1_project_1_2018_02_21t22_43_18_00_00_anon_nolink.csv',
-  'downloaded/credco_webconf_study_2_study_2_project_1_2018_02_21t22_44_07_00_00_anon_nolink.csv',
-  'downloaded/credco_webconf_study_3_study_3_project_1_2018_02_21t22_44_40_00_00_anon_nolink.csv'
-];
+const records = require('./out-records')
 
 const nodes = {}
 let obsCount = 0
 let my
 
-(async () => {
-  let records = []
-  for (const filename of part1files) {
-    records = records.concat(await readCSV(filename))
-  }
-  // write out the basic JSON, for to help me understand it
-  await fs.writeFile('./out-records.json', JSON.stringify(records, null, 2))
+const ansType = []
+ansType[ 1] = credlevel
+ansType[ 6] = bool
+ansType[10] = numeric
+ansType[12] = lik5
+ansType[15] = numeric
+ansType[16] = lik5
+ansType[17] = numeric
+ansType[18] = numeric
+ansType[19] = numeric
+ansType[20] = numeric
+ansType[22] = lik5
+ansType[23] = lik5
+// ansType[24] = credlevel   also "No change" is an option here.
 
+module.exports.kb = records2rdf(records)
+
+function records2rdf (records) {
   const kb = kgx.createKB()
   kb.base = 'https://base-placeholder.example/'
   my = kb.ns('', kb.base)
   for (const r of records) {
     describe(r, kb)
   }
-  await kb.writeToFile('./out.trig')
-})()
+  return kb
+  // await kb.writeToFile('./out.trig')
+}
 
 async function readCSV(filename, cb) {
   const text = await fs.readFile(filename)
@@ -59,16 +62,38 @@ function userNode (key, kb) {
 }
 */
 
-const ansType = []
-
-ansType[1] = credlevel
 
 function credlevel (kb, text) {
   const options = {}
-  const val = ["Very low credibility", "Somewhat low credibility", "Medium credibility", "Somewhat high credibility", "Very high credibility"].indexOf(text)
-  if (val === -1) throw Error `bad value ${text} for credibility rating`
-  options[kb.ns.rdf.value] = val/4
-  return kb.defined(`The response "${text}", when the possible responses are "Very high credibility", "Somewhat high credibility", "Medium credibility", "Somewhat low credibility", and "Very low credibility".`, {label: text, value: val/4})
+  const index = ["Very low credibility", "Somewhat low credibility", "Medium credibility", "Somewhat high credibility", "Very high credibility"].indexOf(text)
+  if (index === -1) {
+    console.error(`bad value "${text}" for credibility rating`)
+    return undefined
+  }
+  const val = index / 4
+  options[kb.ns.rdf.value] = val
+  return kb.defined(`The response "${text}", when the possible responses are "Very high credibility", "Somewhat high credibility", "Medium credibility", "Somewhat low credibility", and "Very low credibility".`, {label: text, value: val})
+}
+
+function lik5 (kb, text) {
+  const options = {}
+  const index = ["Strongly disagree", "Somewhat disagree", "Neutral", "Somewhat agree", "Strongly agree"].indexOf(text)
+  if (index === -1) {
+    console.error(`bad value "${text}" for Likert-5 rating`)
+    return undefined
+  }
+  const val = index - 2
+  options[kb.ns.rdf.value] = val
+  return kb.defined(`The response "${text}", when the possible responses are "Strongly disagree", "Somewhat disagree", "Neutral", "Somewhat agree", and "Strongly agree".`, {label: text, value: val})
+}
+
+function numeric (kb, text) {
+  return kb.literal(parseInt(text))
+}
+function bool (kb, text) {
+  if (text === 'true') return kb.literal(true)
+  if (text === 'false') return kb.literal(false)
+  return undefined
 }
 
 function describe(r, kb) {
@@ -92,32 +117,25 @@ function describe(r, kb) {
     const answer = r[`task_answer_${t}`]
 
     if (uid && question && answer) {
-      const observer = setdefault.lazy(nodes, uid, () => {
-        console.log('need new id for user', uid)
-        // add description
-        return my[uid]
-      })
-      const property = setdefault.lazy(nodes, question, () => {
-        // add description
-        // use cnamify
-        return kb.defined(question)
-      })
+      const observer = kb.defined(`Test subject identified as "${uid}" in Zhang18 data release`, {label: 'Subj ' + uid})
+      const property = kb.defined(question, {label: 'Question ' + t})
 
       let handler = ansType[t]
-      let value = answer
+      let value
       if (handler) {
+        // console.log('running', t, handler)
         value = handler(kb, answer)
-      } else {
-        break //   FOR NOW, 25 more to go!!
       }
-      console.log(t, value)
-
+      if (value) {
+        // console.log('output', t, value)
+        
       
-      const observation = my['n' + obsCount++]
-      // const observation = kb.blank() // kb.ns.obs['n' + obsCount++] // obsns['n' + obsCount++]
-
-      kb.add(subject, property, value, observation)
-      kb.add(observation, kb.ns.cred.observer, observer)
+        const observation = my['n' + obsCount++]
+        // const observation = kb.blank() // kb.ns.obs['n' + obsCount++] // obsns['n' + obsCount++]
+        
+        kb.add(subject, property, value, observation)
+        kb.add(observation, kb.ns.cred.observer, observer)
+      }
     }
   }
 }

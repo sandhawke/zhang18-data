@@ -34,4 +34,4 @@ Here's what I did:
 3. play around with the column structure and data types
 4. ask one of authors to clarify the arrangements into different files
 
-IN PROGRESS
+... and then things got complicated.  I guess see the source code.
